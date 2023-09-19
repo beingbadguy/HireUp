@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* font-family: 'General Sans', sans-serif; */
+  font-family: "Cabinet Grotesk", sans-serif;
+  /* border: 1px solid red; */
+}
+/* :root{
+  --big-device: ;
+  --medium_device: ;
+  --small-device: ;
+} */
+body{
+  /* background-color: #82ABA1; */
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+/* @media (max-width:){
+
+} */
+

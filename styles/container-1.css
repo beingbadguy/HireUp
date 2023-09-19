@@ -1,0 +1,240 @@
+container-1 {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+container-1 h3 {
+  padding-top: 40px;
+  font-size: 20px;
+}
+container-1 h1{
+    margin-top: 50px;
+}
+.brand_logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 900px;
+}
+
+.brand_logos img {
+  height: 200px;
+}
+container-1 h1 {
+  font-size: 35px;
+  width: 500px;
+}
+
+.grid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.grid img {
+  height: 300px;
+}
+
+.box-1 {
+  width: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #e5edfb;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.texts {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.texts p {
+  width: 500px;
+  font-size: 18px;
+}
+
+.box-2 {
+  background-color: #e5e5f8;
+  height: 380px;
+  border-radius: 50px;
+}
+.box-2 img {
+  height: 200px;
+}
+.box-2 .texts {
+  margin-top: 0px;
+}
+.box-2 .texts p {
+  width: 350px;
+}
+.box-3 {
+  background-color: #e5fbf2;
+  height: 380px;
+  border-radius: 50px;
+}
+.box-3 img {
+  height: 200px;
+}
+
+.box-3 .texts {
+  margin-top: 0px;
+}
+.box-3 .texts p {
+  width: 350px;
+}
+
+@media (max-width: 1020px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid img {
+    height: 180px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-3 {
+    flex-direction: row-reverse;
+  }
+  .box-1 .texts {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 791px) {
+  .brand_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 700px;
+  }
+  .brand_logos img {
+    height: 100px;
+  }
+
+  container-1 h1 {
+    font-size: 25px;
+    width: 400px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: auto;
+  }
+  .box-1 .texts p {
+    width: 300px;
+  }
+}
+
+@media (max-width: 668px) {
+  .grid img {
+    height: 120px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 500px;
+    gap: 0px;
+  }
+  .box-1 .texts p {
+    width: 230px;
+    font-size: 15px;
+  }
+
+  .box-2 .texts p {
+    width: 230px;
+    font-size: 15px;
+  }
+  .box-3 .texts p {
+    width: 230px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 506px) {
+    .grid img {
+        width: 100px;
+      height: 100px;
+    }
+  
+    .box-1,
+    .box-2,
+    .box-3 {
+      width: 400px;
+      gap: 0px;
+    }
+    .box-1 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+  
+    .box-2 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+    .box-3 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+  }
+
+
+@media (max-width: 415px){
+    container-1 h3{
+        width: 300px;
+    } 
+    container-1 h1{
+        width: 300px;
+    }
+    .grid img{
+        width: 50px;
+    }
+    .box-1,
+    .box-2,
+    .box-3 {
+        display: flex;
+        
+      width: 320px;
+      gap: 0px;
+    }
+    .box-1 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+    .box-2 {
+        justify-content: center;
+        gap: 0px;
+    }
+    .box-2 .texts{
+        margin-right: 10px;
+    }
+    .box-2 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+    .box-3 .texts p {
+      width: 230px;
+      font-size: 15px;
+    }
+}

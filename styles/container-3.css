@@ -1,0 +1,57 @@
+container-3 {
+  background-color: #56494c;
+  height: auto;
+  text-align: center;
+  color: black;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+container-3 h1 {
+  padding-top: 30px;
+}
+.get_started {
+  text-align: left;
+  border: 1px solid white;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.get_started input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  /* background-color: transparent; */
+}
+
+.get_started button {
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+@media (max-width:413px){
+    container-3 h1{
+        width: 300px;
+    }
+    container-3 p{
+        width: 300px;
+    }
+    .get_started{
+        text-align: center;
+        width: 300px;
+    }
+    .get_started button{
+        margin-top: 5px;
+    }
+}

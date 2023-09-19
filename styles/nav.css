@@ -1,0 +1,64 @@
+header{
+  background-color: #56494C
+
+}
+nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 1.5rem;
+}
+.logo h4 {
+  font-size: 2rem;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+.menu ul li {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.nav_button {
+  margin-right: 1.5rem;
+}
+.nav_button {
+  display: flex;
+  align-items: center;
+}
+.nav_button p a {
+  letter-spacing: 1px;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.post_job {
+  padding: 5px;
+  color: #56494c;
+  background-color: white;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  border-radius: 8px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.post_job:hover {
+  background-color: white;
+  color: #56494c;
+  transition: all 0.4s ease;
+}
+
+/* responsive nav bar  */
+@media (max-width: 836px) {
+  .menu {
+    display: none;
+  }
+}

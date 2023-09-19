@@ -1,0 +1,133 @@
+main {
+  background-color: #56494c;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    border-bottom-left-radius: 200px;
+    /* border-bottom-right-radius: 20%; */
+}
+
+.main_goto {
+  text-align: center;
+  align-items: center;
+  width: auto;
+  padding: 5px;
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.main_goto img {
+  height: 30px;
+}
+.main_goto img:hover {
+  transform: translateX(3px);
+  transition: all 0.4s ease;
+}
+
+.main_goto P {
+  margin-top: 0px;
+}
+main h1 {
+  margin-top: 50px;
+  font-size: 5rem;
+}
+main p {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+.hero_buttons {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_find {
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.hero_find img {
+  height: 20px;
+}
+.hero_find p {
+  margin-top: 0px;
+  color: black;
+}
+
+.hero_buttons p {
+  margin-top: 0px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pic img {
+  height: 300px;
+  padding: 0px;
+}
+
+@media (max-width: 1150px) {
+  main h1 {
+    margin-top: 50px;
+    font-size: 4rem;
+  }
+  main p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 957px) {
+  main h1 {
+    margin-top: 50px;
+    font-size: 3rem;
+  }
+  main p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 777px) {
+  .main_goto p {
+    width: auto;
+  }
+  main h1 {
+    width: 400px;
+  }
+  main p {
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  .hero_find p {
+    width: auto;
+    margin-top: 0px;
+    color: black;
+  }
+
+  .hero_buttons p {
+    width: auto;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 415px){
+  main h1{
+    width: 300px;
+  }
+  main p{
+    width: 320px;
+  }
+  .pic img{
+    height: 200px;
+  }
+}

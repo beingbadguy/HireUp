@@ -1,0 +1,38 @@
+footer {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: black;
+  padding-bottom: 50px;
+}
+.query {
+  max-width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.about_us ul,
+.support ul,
+.faq ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+.active {
+  font-weight: 900;
+}
+.hireup_logo {
+  margin-top: 40px;
+}
+@media (max-width: 1011px) {
+  .query {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
